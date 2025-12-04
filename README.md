@@ -20,6 +20,7 @@ Configured for the user site root; Vite `base` is set to `/`.
 - Manual: `npm run deploy` (builds to `dist` and publishes to `gh-pages`).
 - Automatic: workflow `.github/workflows/deploy.yml` deploys on every push to `main`.
 - In GitHub → Settings → Pages, set source to the `gh-pages` branch.
+- To force a rebuild of the live site, push any commit to `main` and the action will republish `gh-pages`.
 
 ## Customize
 
